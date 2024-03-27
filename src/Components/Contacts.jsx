@@ -1,4 +1,3 @@
-import React from "react";
 import contactUserCard from "./ContactUserCard";
 
 function contactList() {

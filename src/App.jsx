@@ -7,12 +7,7 @@ import userProfile from "./Components/UserProfile";
 
 function App() {
   return (
-    <div>
-      {nav}
-      {userProfile}
-      {postList}
-      {contactList}
-    </div>
+    <contactList/>
   )
 }
 

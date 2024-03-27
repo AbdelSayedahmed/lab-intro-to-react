@@ -1,5 +1,3 @@
-import React from "react";
-
 function userProfile() {
     return (
         <div class="userProfile">
