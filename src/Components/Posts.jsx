@@ -1,16 +1,14 @@
-import post from "./Post";
+import Post from "./Post";
 
-function postList() {
+function Posts() {
     return (
-        <div>
+        <div className="post-list">
             <h3>Posts</h3>
-            <ul>
-                {post}
-                {post}
-                {post}
-            </ul>
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }
 
-export default postList;
+export default Posts;

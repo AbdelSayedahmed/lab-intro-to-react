@@ -1,17 +1,18 @@
-import contactUserCard from "./ContactUserCard";
+import ContactUserCard from "./ContactUserCard";
+import "./main.css";
 
-function contactList() {
+function Contacts() {
     return (
-        <div>
+        <div className="contact-list">
             <h2>Contacts</h2>
             <ul>
-                {contactUserCard};
-                {contactUserCard};
-                {contactUserCard};
-                {contactUserCard};
+                <ContactUserCard />
+                <ContactUserCard />
+                <ContactUserCard />
+                <ContactUserCard />
             </ul>
         </div>
     )
 }
 
-export default contactList;
+export default Contacts;

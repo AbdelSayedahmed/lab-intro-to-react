@@ -1,13 +1,20 @@
 import React from "react";
 import "./index.css";
-import contactList from "./Components/Contacts";
-import nav from "./Components/NavBar";
-import postList from "./Components/Posts";
-import userProfile from "./Components/UserProfile";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 
 function App() {
   return (
-    <contactList/>
+    <div className="App">
+      <NavBar />
+      <div className="main">
+        <UserProfile />
+        <Posts />
+        <Contacts />
+      </div>
+    </div> 
   )
 }
 

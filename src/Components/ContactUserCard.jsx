@@ -1,6 +1,8 @@
-function contactUserCard() {
+import "./main.css";
+
+function ContactUserCard() {
     return (
-        <div>
+        <div className="contact-user-card">
             <img src="./src/profile.png" alt="user profile pic" />
             <h3>Jordan Walker</h3>
             <h4>React Creator</h4>
@@ -9,4 +11,4 @@ function contactUserCard() {
     )
 }
 
-export default contactUserCard;
+export default ContactUserCard;
