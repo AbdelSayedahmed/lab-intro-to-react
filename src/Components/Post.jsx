@@ -1,5 +1,3 @@
-import "./main.css";
-
 function Post() {
     return (
         <div className="post">

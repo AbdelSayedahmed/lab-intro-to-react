@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 30px;
+}
+
+.user-profile {
+  border: 2px solid black;
+  display: flex;
+  gap: 30px;
+}
+
+.user-profile-content {
+  text-align: center;
+}
+
+.contact-list {
+  border: 2px solid black;
+  grid-row: span 2;
+}
+
+.contact-user-card {
+  border: 2px solid black;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 30px;
+}
+
+header {
+  background-color: lightblue;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  margin-left: 77%;
+
+  button {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-left: 20px;
+  }
+}
+
+.post {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;  
+  margin: 30px
+}
+
+.post-list {
+  border: 2px solid black;
+  text-align: center;
+}
+
+img {
+  height: 135px;
+}
